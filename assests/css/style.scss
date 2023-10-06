@@ -1,0 +1,283 @@
+.bg-image{
+    background-image: url(../images/bg-image.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100% ;
+    padding-bottom: 10rem;
+}
+.navbar{
+     .top-navbar{
+        padding: 40px 20px;
+    }
+    .fa-brands{
+        color: #FFFFFF;
+        padding-left: 20px;
+        font-size: 30px;
+}
+
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.header{
+    text-align: center;
+    color: #FFFFFF;
+    .heading{
+        font-size: 74px;
+        font-weight: 700;
+        line-height: 84px;
+        max-width: 672px;
+        margin: auto;
+    }
+    .para-heading{
+        font-size: 28px;
+        font-weight: 400;
+        line-height: 40px;
+        max-width: 760px;
+        margin: auto;
+        margin-top: 17px;
+    }
+    .btn-try{
+        padding: 10px 60px;
+        margin-top: 80px;
+     }
+    @media screen and (max-width:768px) {
+        .heading{
+            font-size: 44px;
+            font-weight: 500;
+            line-height: 64px;
+            max-width: 672px;
+            margin: auto;
+        }
+        .para-heading{
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 20px;
+            max-width: 760px;
+            margin: auto;
+            margin-top: 17px;
+        }
+    }
+}
+
+// feature section
+.feature{
+    .feature-heading{
+        font-size: 48px;
+        font-weight: 400;
+        line-height: 55px;
+        text-align: center;
+        color: #252B42;
+        @media screen and (max-width:768px) {
+            font-size: 28px;
+            font-weight: 400;
+            line-height: 35px;
+            text-align: center;
+            color: #252B42;
+        }
+    } 
+    .feature-para{
+        font-size: 28px;
+        font-weight: 400;
+        line-height: 40px;
+        max-width: 532px;
+        margin: auto;
+        margin-top: 17px;
+        text-align: center;
+        color: #374754;
+        @media screen and (max-width:768px) {
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 20px;
+        }
+    }
+   
+}
+
+// card sec
+.img-buble{
+    width: 61px;
+}
+.heading-card{
+    max-width: 194px;
+    margin: auto;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+}
+.para-card{
+    max-width: 231px;
+    margin: auto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    padding-top: 15px;
+}
+.video-sec{
+    height: 658px;
+    @media screen and (max-width:568px) {
+        height: 558px;
+    }
+}
+// sec Fastest
+.fastest{
+ @media screen and (max-width:568px) {
+    text-align: center;
+}
+}
+.fastest-heading{
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 55px;
+    color: #252B42;
+    margin: 0;
+    @media screen and (max-width:568px) {
+        font-size: 28px;
+        font-weight: 400;
+        line-height: 35px;
+        text-align: center;
+
+    }
+    @media screen and (max-width:321px) {
+        font-size: 28px;
+        font-weight: 400;
+        line-height: 35px;
+        text-align: center;
+    }
+
+}
+.fastest-para{
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 40px;
+    max-width: 532px;
+    margin-top: 17px;
+    color: #374754;
+    @media screen and (max-width:568px) {
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 20px;
+        text-align: center;
+    }
+    @media screen and (max-width:321px) {
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 20px;
+        text-align: center;
+    }
+}
+.btn-try2{
+    padding: 10px 60px;
+    margin-top: 60px;
+}
+//  sec Lightning
+.overall{
+    padding: 80px 0;
+}
+.email-input{
+    max-width: 500px;
+}
+.main-input {
+    @media screen and (max-width:568px) {
+        text-align: center;
+        padding-top: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+}
+.lightning{
+    .top-head{
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 28px;
+        @media screen and (max-width:768px) {
+            font-size: 20px;
+            font-weight: 700;
+            line-height: 20px;
+            text-align: center;
+        }
+    }
+    .title{
+        font-size: 48px;
+        font-weight: 400;
+        line-height: 55px;
+        max-width: 324px;
+        @media screen and (max-width:768px) {
+            font-size: 32px;
+            font-weight: 400;
+            line-height: 35px;
+            margin: auto;
+            text-align: center;
+        }
+        @media screen and (max-width:321px) {
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 20px;
+            text-align: center;
+        }
+    }
+    .end-head{
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 25px;
+        @media screen and (max-width:768px) {
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 25px;
+            text-align: center;
+    }
+}
+}
+.newsImg{
+    max-width: 100%;
+    height: auto;
+}
+// sec IBM
+.para-ibm{
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 40px;
+    max-width: 967px;
+    margin-top: 17px;
+    margin: auto;
+    @media screen and (max-width:568px) {
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 20px;
+        
+    }
+}
+// sec pricing card
+.dollar{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 23px;
+}
+.clring{
+    background-color: #252B42;
+}
+.card {
+    transition: transform 0.3s;
+}
+
+.clring{
+    .card{
+        &:hover {
+            transform: scale(1.09);
+            background-color: blue;
+            color: white;
+        }
+    }
+}
+.card:hover .card-btn{
+   background-color: white;
+   color: #252B42;
+}
+// footer
+.footer{
+    .fa-brands{
+        font-size: 40px;
+    }
+}
